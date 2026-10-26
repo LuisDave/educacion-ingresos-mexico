@@ -1,0 +1,7 @@
+﻿termino,pct_completo,pct_sin_1pct_superior,umbral_p99
+"C(educacion, Treatment(reference='Secundaria'))[T.Sin primaria]",-24.68610091,-24.55587721,50414.83
+"C(educacion, Treatment(reference='Secundaria'))[T.Primaria]",-12.50800122,-12.28697504,50414.83
+"C(educacion, Treatment(reference='Secundaria'))[T.Media superior]",20.35880941,19.88643738,50414.83
+"C(educacion, Treatment(reference='Secundaria'))[T.Técnica o normal]",36.89359936,36.41190158,50414.83
+"C(educacion, Treatment(reference='Secundaria'))[T.Licenciatura]",94.10613704,87.80389537,50414.83
+"C(educacion, Treatment(reference='Secundaria'))[T.Posgrado]",205.1474891,174.9455696,50414.83

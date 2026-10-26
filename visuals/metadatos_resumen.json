@@ -1,0 +1,43 @@
+{
+  "n": 76407,
+  "licenciatura_pct": 94.1061370401676,
+  "licenciatura_ic": [
+    90.1628187396646,
+    98.13122610596604
+  ],
+  "coef_licenciatura": 0.6632349216,
+  "prueba_escolaridad": {
+    "F": 995.0729201502803,
+    "gl_num": 6,
+    "gl_den": 9888,
+    "p": 0.0
+  },
+  "r2_log": 0.3922668342707756,
+  "mae_prueba": 5180.647046,
+  "fuentes_graficas": [
+    "02_ingreso_escolaridad.png",
+    "03_efectos_ajustados.png",
+    "04_diagnosticos.png",
+    "05_validacion.png"
+  ],
+  "editor_ecuaciones": "Matplotlib MathText; PNG de 300 dpi y fuente SVG",
+  "sha256_fuentes": {
+    "outputs/resultados.json": "85dd09a7e29086f877203a649009784b5f470235d9a83b474cf8009ae2bb6f13",
+    "outputs/tables/coef_ajustado.csv": "f9e899af5108293ec672577262874c90297253df6f3170d93ad78aabda3ef453",
+    "outputs/tables/ingreso_por_escolaridad.csv": "6c14a56175bdf0599f8855d1ce237230a3a0865443aef6df50cbe87e74d6c064",
+    "outputs/tables/validacion_upm.csv": "6a428737ea162c240cec141534cef7fa43eba5ff05f5114a49c6041fd34c91c7",
+    "outputs/tables/sensibilidad_extremos.csv": "cd55e34cbab9135ea4d4a9da36bfbb219b1c7e16a715e19c1bcb3f92bb75708e",
+    "notebooks/01_educacion_ingresos_enigh2024.ipynb": "6fd3cbe2d93fe629497760daa3be9e11c3676277c0e21bc448c102771236edc4",
+    "outputs/figures/02_ingreso_escolaridad.png": "c12ad2334a8d2616a14f31315c5fcf0d2c6f59e5b96b03e3275dd74a2f1f525d",
+    "outputs/figures/03_efectos_ajustados.png": "eb08f4fdadb2ff944c0114aa06cce929a8ee1cafa27be8863b0ebdea44616568",
+    "outputs/figures/04_diagnosticos.png": "5ae963f5f447f172b99a9e3c0ea5953dba0c3d6956e8df04c44fdab668bdc1f1",
+    "outputs/figures/05_validacion.png": "e2966137e54abfbbbe0f6450221ce3a63d79cb966bc2c8a28fb6bf1988a69131"
+  },
+  "revision_distribucion": {
+    "fin_columna_1": 1611.147862528264,
+    "fin_columna_2": 1627.30418574946,
+    "inicio_conclusion": 1660,
+    "fin_validacion": 1363.8164037107497,
+    "inicio_referencias": 1383.8164037107497
+  }
+}

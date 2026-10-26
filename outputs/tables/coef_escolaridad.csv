@@ -1,0 +1,8 @@
+﻿termino,coef,error_estandar,t,p,ic95_inf,ic95_sup
+Intercept,8.893432983,0.007502295373,1185.428264,0,8.878726954,8.908139012
+"C(educacion, Treatment(reference='Secundaria'))[T.Sin primaria]",-0.4344949,0.03237745262,-13.41967526,1.052030266e-40,-0.4979613098,-0.3710284902
+"C(educacion, Treatment(reference='Secundaria'))[T.Primaria]",-0.1949727886,0.01265416874,-15.4077911,5.968677834e-53,-0.2197775398,-0.1701680373
+"C(educacion, Treatment(reference='Secundaria'))[T.Media superior]",0.1880118862,0.01047542618,17.94789853,6.60335456e-71,0.1674779147,0.2085458578
+"C(educacion, Treatment(reference='Secundaria'))[T.Técnica o normal]",0.2732751159,0.0227530877,12.01046291,5.309892955e-33,0.2286744241,0.3178758078
+"C(educacion, Treatment(reference='Secundaria'))[T.Licenciatura]",0.6033067163,0.01117604333,53.98213824,0,0.5813993923,0.6252140403
+"C(educacion, Treatment(reference='Secundaria'))[T.Posgrado]",1.030387109,0.02617491613,39.36544069,0,0.9790789352,1.081695282

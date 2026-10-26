@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.jupyter/
+*.pyc
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+references/*.pdf
+outputs/cache/
+visuals/preview/
+visuals/preview_resumen.png
+*.zip
+Thumbs.db
+.DS_Store

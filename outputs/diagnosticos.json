@@ -1,0 +1,10 @@
+{
+  "breusch_pagan_LM": 2706.269048274214,
+  "breusch_pagan_p": 0.0,
+  "jarque_bera": 104203.74430744251,
+  "jarque_bera_p": 0.0,
+  "asimetria": -1.3262439254353116,
+  "curtosis_Pearson": 8.069069913504158,
+  "durbin_watson": 1.7626275387194472,
+  "alcance": "Diagnósticos clásicos OLS exploratorios; sus p no incorporan el diseño de encuesta. DW no es temporal."
+}

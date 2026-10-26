@@ -1,0 +1,4 @@
+﻿modelo,n,parametros,r2_ponderada_log,r2_ajustada_log,condicion
+Escolaridad sola,76407,7,0.1692382435,0.1691730005,9.291289776
+Modelo ajustado,76407,43,0.3922668343,0.3919325826,8355.213838
+Con ocupación,76407,52,0.4396402497,0.4392659671,66360.3152

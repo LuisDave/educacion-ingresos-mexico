@@ -1,0 +1,32 @@
+[
+  {
+    "file": "poblacion.zip",
+    "url": "https://www.inegi.org.mx/contenidos/programas/enigh/nc/2024/microdatos/enigh2024_ns_poblacion_csv.zip",
+    "bytes": 9055376,
+    "sha256": "37fbd07c29a5e9971c0d3f6bdb89af47cb89e53006924077703d48464604286d"
+  },
+  {
+    "file": "ingresos.zip",
+    "url": "https://www.inegi.org.mx/contenidos/programas/enigh/nc/2024/microdatos/enigh2024_ns_ingresos_csv.zip",
+    "bytes": 4292608,
+    "sha256": "0974630476c65e604e0c95e68e565e72d8de542f6720eb325b047a4b61e56ab2"
+  },
+  {
+    "file": "trabajos.zip",
+    "url": "https://www.inegi.org.mx/contenidos/programas/enigh/nc/2024/microdatos/enigh2024_ns_trabajos_csv.zip",
+    "bytes": 1928668,
+    "sha256": "46337a2e8eb52eaeb43508b5a3b9c1967c3af39402d10a77a5ea7a431daa60fa"
+  },
+  {
+    "file": "descripcion_base.pdf",
+    "url": "https://www.inegi.org.mx/contenidos/programas/enigh/nc/2024/microdatos/889463924494.pdf",
+    "bytes": 2967447,
+    "sha256": "1b0c698594da41bfe8c976c5d161dcdf99ae4f962a8a5cafe73947582dfdf8a1"
+  },
+  {
+    "file": "diseno_muestral.pdf",
+    "url": "https://www.inegi.org.mx/contenidos/programas/enigh/nc/2024/doc/889463924517.pdf",
+    "bytes": 1626755,
+    "sha256": "2d2a5c0fd47a92d7c2d044300b47cf15330f9902c8b50975dd1e4eab35395229"
+  }
+]

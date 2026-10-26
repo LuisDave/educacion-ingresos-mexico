@@ -1,0 +1,84 @@
+{
+  "pregunta": "¿Estudiar más se relaciona con ganar más en México?",
+  "fuente": "ENIGH 2024 Nueva Serie, INEGI",
+  "n": 76407,
+  "n_poblacion_fuente": 308598,
+  "personas_expandidas_dominio": 34437734,
+  "media_mensual_ponderada": 11892.279149419548,
+  "mediana_mensual_ponderada": 9782.606666666667,
+  "r2_log_ajustado": 0.3922668342707756,
+  "diseno": {
+    "upm": 10569,
+    "estratos": 681,
+    "gl_diseno": 9888,
+    "estratos_unitarios": 0
+  },
+  "prueba_escolaridad": {
+    "F": 995.0729201502803,
+    "gl_num": 6,
+    "gl_den": 9888,
+    "p": 0.0
+  },
+  "validacion": {
+    "n_train": 60765,
+    "n_test": 15642,
+    "upm_train": 8343,
+    "upm_test": 2086,
+    "upm_compartidas": 0,
+    "semilla": 2026
+  },
+  "efectos_educacion": [
+    {
+      "educacion": "Sin primaria",
+      "diferencia_pct": -24.686100910207774,
+      "pct_inf": -28.446763014507738,
+      "pct_sup": -20.72778765749665,
+      "p": 2.8643550145518915e-27
+    },
+    {
+      "educacion": "Primaria",
+      "diferencia_pct": -12.508001219470351,
+      "pct_inf": -14.288903256988908,
+      "pct_sup": -10.69009566446389,
+      "p": 7.210519857851099e-37
+    },
+    {
+      "educacion": "Media superior",
+      "diferencia_pct": 20.358809410474795,
+      "pct_inf": 18.257245004690063,
+      "pct_sup": 22.497720982189914,
+      "p": 1.5476145951309064e-92
+    },
+    {
+      "educacion": "Técnica o normal",
+      "diferencia_pct": 36.89359935520514,
+      "pct_inf": 31.407160162492602,
+      "pct_sup": 42.60910532767389,
+      "p": 1.2644784883182588e-50
+    },
+    {
+      "educacion": "Licenciatura",
+      "diferencia_pct": 94.1061370401676,
+      "pct_inf": 90.1628187396646,
+      "pct_sup": 98.13122610596604,
+      "p": 0.0
+    },
+    {
+      "educacion": "Posgrado",
+      "diferencia_pct": 205.1474890967558,
+      "pct_inf": 190.78690753692155,
+      "pct_sup": 220.21727144036495,
+      "p": 0.0
+    }
+  ],
+  "formulas": {
+    "Escolaridad sola": "log_ingreso ~ C(educacion, Treatment(reference='Secundaria'))",
+    "Modelo ajustado": "log_ingreso ~ C(educacion, Treatment(reference='Secundaria')) + edad_c + edad_c2 + log_horas + mujer + rural + C(entidad)",
+    "Con ocupación": "log_ingreso ~ C(educacion, Treatment(reference='Secundaria')) + edad_c + edad_c2 + log_horas + mujer + rural + C(entidad) + C(ocupacion)"
+  },
+  "fecha_elaboracion": "2026-10-25",
+  "alcance": "Personas de 25-64 años, integrantes del hogar, con un solo trabajo subordinado remunerado en México e ingreso monetario corriente principal positivo; horas 1-168. P001-P007, ing_tri/3.",
+  "escolaridad": "Máximo nivel con grados aprobados; puede estar incompleto. Técnica y normal se agrupan por heterogeneidad de antecedentes. No se infieren años de escolaridad.",
+  "inferencia": "Taylor por UPM dentro de estratos, marco completo de Población con scores cero fuera del dominio. Aproximación con reemplazo sin corrección finita.",
+  "causalidad": "Asociación condicionada; no identifica el efecto causal de estudiar ni representa a personas sin ingreso o sin empleo."
+}

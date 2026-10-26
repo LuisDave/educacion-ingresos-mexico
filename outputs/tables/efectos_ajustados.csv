@@ -1,0 +1,7 @@
+﻿termino,coef,error_estandar,t,p,ic95_inf,ic95_sup,educacion,diferencia_pct,pct_inf,pct_sup
+"C(educacion, Treatment(reference='Secundaria'))[T.Sin primaria]",-0.2835054853,0.02613144176,-10.84920947,2.864355015e-27,-0.3347284401,-0.2322825306,Sin primaria,-24.68610091,-28.44676301,-20.72778766
+"C(educacion, Treatment(reference='Secundaria'))[T.Primaria]",-0.1336228393,0.01049127878,-12.73656359,7.210519858e-37,-0.1541878852,-0.1130577934,Primaria,-12.50800122,-14.28890326,-10.69009566
+"C(educacion, Treatment(reference='Secundaria'))[T.Media superior]",0.1853071738,0.008986343476,20.62097608,1.547614595e-92,0.167692108,0.2029222396,Media superior,20.35880941,18.257245,22.49772098
+"C(educacion, Treatment(reference='Secundaria'))[T.Técnica o normal]",0.3140337911,0.02086690092,15.04937376,1.264478488e-50,0.2731304099,0.3549371722,Técnica o normal,36.89359936,31.40716016,42.60910533
+"C(educacion, Treatment(reference='Secundaria'))[T.Licenciatura]",0.6632349216,0.01047057471,63.34274287,0,0.6427104599,0.6837593833,Licenciatura,94.10613704,90.16281874,98.13122611
+"C(educacion, Treatment(reference='Secundaria'))[T.Posgrado]",1.115625045,0.02459157817,45.3661427,0,1.067420536,1.163829553,Posgrado,205.1474891,190.7869075,220.2172714
